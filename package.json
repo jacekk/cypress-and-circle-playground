@@ -5,7 +5,14 @@
   "author": "JacekK",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "cy:open": "cypress open"
+  },
   "dependencies": {
     "cypress": "^5.6.0"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
   }
 }
