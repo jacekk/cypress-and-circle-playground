@@ -1,0 +1,8 @@
+{
+  "name": "cypress-and-circle-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JacekK",
+  "license": "MIT",
+  "private": true
+}
