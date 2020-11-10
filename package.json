@@ -4,5 +4,8 @@
   "main": "index.js",
   "author": "JacekK",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "cypress": "^5.6.0"
+  }
 }
