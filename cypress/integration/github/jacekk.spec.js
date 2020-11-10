@@ -26,7 +26,7 @@ describe('github profile - jacekk', () => {
 		cy.get('nav.UnderlineNav-body a:nth-child(2)')
 			.find('.Counter')
 			.first()
-			.should('have.text', 91);
+			.should('have.text', 92);
 
 		cy.get('#your-repos-filter').type('matrix');
 		cy.get('.user-repo-search-results-summary').should(($results) => {

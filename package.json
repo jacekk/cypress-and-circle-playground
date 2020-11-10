@@ -6,7 +6,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "start": "yarn cy:open",
+    "test": "yarn cy:run"
   },
   "dependencies": {
     "cypress": "^5.6.0"
